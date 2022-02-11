@@ -1,0 +1,13 @@
+Hey there!
+This is a helpful little incantation to summon your switch configs
+Just run gather-switch-secrets.py and it will put them into the /configs dir
+
+### To make sure this dude works ###
+1. Your scripts need to be able to transfer their configs over scp
+   For HP switches the command [ip ssh filetransfer] enables this ability
+
+2. Make sure you've logged onto these switches before!
+   Or if you're fancy make sure you've gotten their keys
+   into your ./ssh directory somehow (but I find logging into them easiest)
+
+3. Put the names of your switches and their IPs into the switches.json
